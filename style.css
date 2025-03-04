@@ -27,9 +27,10 @@ body {
 .logo {
     size: 24px;
     color: #F9FAF8;
-    font-weight: 500;
+    font-weight: 800;
     display: flex;
     justify-self: flex-start;
+    font-size: x-large;
 }
 
  .header ul {
@@ -54,7 +55,7 @@ body {
     display: flex;
     flex: 1;
     max-height: fit-content;
-    justify-content:center;
+    justify-content:space-between;
     align-items: center;
     gap: 30px;
     padding-top: 10%;
@@ -101,11 +102,6 @@ body {
     min-height: min-content;
  }
 
- li img {
-    max-width: 100px;
-    max-height: auto;
- }
-
 .info-and-icons {
     display: flex;
     flex-direction: column;
@@ -114,20 +110,44 @@ body {
     flex: 1;
 }
 
+.info-and-icons h2 {
+font-size: xx-large;
+}
+
 .icons {
     text-align: center;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: center;
+    align-items: baseline;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
  .icons ul {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   align-items: center;
     list-style: none;
+    padding: 0px;
+    text-wrap: balance;
+    margin: 50px;
+    max-width: 12vw;
+    color: rgb(100, 100, 100);
  }
 
  .icons img {
     border: 3px solid #3882f6;
     border-radius: 10px;
+    display: flex;
+    flex: 1 1 auto;
+    max-width: 12vw;
+    max-height: 12vw;
+ }
+
+ .icons a {
+   font-size: medium;
  }
 
  .quote {
@@ -164,6 +184,8 @@ body {
     align-items: center;
     background-color: #3882f6;
     margin: 5% 10% 5% 10%;
+    border: #3882f6;
+    border-radius: 10px;
  }
 
  .call-text {
@@ -172,6 +194,17 @@ body {
     justify-content: center;
     text-align: left;
     color: white;
+    margin: 50px;
+ }
+
+ .call-text h3 {
+margin: 0px;
+font-size: larger;
+ }
+
+ .call-text p {
+margin: 0px;
+font-size: large;
  }
 
  .call-box button {
@@ -182,6 +215,11 @@ body {
     background-color: #3882f6;
     color: white;
     padding: 5px 20px 5px 20px;
+    border: white 1px;
+    border-radius: 10px;
+    border-style: solid;
+    font-size: medium;
+    font-weight: bold;
  }
 
  .footer {
